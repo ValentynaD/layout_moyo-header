@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  align-items: center;
+  height: 60px;
+  margin-left: 50px;
+  display: flex;
+}
+
+.logo img {
+  height: 40px;
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  margin-right: 50px;
+  display: flex;
+}
+
+nav a {
+  color: #000;
+  align-items: center;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+nav ul {
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  align-items: center;
+  height: 60px;
+  display: flex;
+}
+
+nav ul li:first-child {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a:hover {
+  color: #00acdc;
+}
+
+nav a.is-active {
+  color: #00acdc;
+  text-transform: uppercase;
+  position: relative;
+}
+
+nav a.is-active:after {
+  content: "";
+  background-color: #00acdc;
+  border-radius: 8px;
+  width: 37px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
